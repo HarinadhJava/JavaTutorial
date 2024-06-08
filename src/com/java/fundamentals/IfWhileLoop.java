@@ -24,6 +24,9 @@ public class IfWhileLoop {
 
         int no = 1;
 
+
+
+
         while (no < 100) {
             System.out.println("while loop :" + no);
             no++;
