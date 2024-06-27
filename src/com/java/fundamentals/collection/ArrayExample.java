@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class ArrayExample {
 
-
     public static void main(String[] args) {
 
         Employee e1 = new Employee(100, "Alex", "alex@gmail.com", "Mechanical");
@@ -21,7 +20,7 @@ public class ArrayExample {
         empArray[3] = e2;
         empArray[4] = e5;
 
-        for(int i=0;i<empArray.length;i++){
+        for (int i = 0; i < empArray.length; i++) {
             System.out.println(empArray[i]);
         }
 
@@ -36,15 +35,15 @@ public class ArrayExample {
         list.add(e6);
 
 
-        System.out.println("Displaying 4th index value :"+list.get(4));
+        System.out.println("Displaying 4th index value :" + list.get(4));
 
-        for(int i=0;i<list.size();i++){
+        for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
     }
 }
 
-class Employee{
+class Employee {
 
     private int id;
     private String name;
